@@ -1,0 +1,28 @@
+Collecting pyttsx3
+  Using cached https://files.pythonhosted.org/packages/f4/20/f6c582c5f2735ca5c55ae52f1ddbc7447fb3565b5ac2fdc24a8d534f4aa1/pyttsx3-2.84-py3-none-any.whl
+Collecting pyobjc>=2.4 (from pyttsx3)
+  Using cached https://files.pythonhosted.org/packages/3c/20/5c04da2ff530575cb33189ce4d2caeb6a6f1a225e16d5d7786422e789091/pyobjc-6.2-py3-none-any.whl
+Collecting comtypes; "win32" in sys_platform (from pyttsx3)
+  Using cached https://files.pythonhosted.org/packages/fb/b8/f8aa21774acb4535e32f6a89055876ca497ff806f9b1b1912b469284a61e/comtypes-1.1.7.zip
+Collecting pyobjc-framework-ApplicationServices==6.2 (from pyobjc>=2.4->pyttsx3)
+  Downloading https://files.pythonhosted.org/packages/84/5c/1c3bb2cb86f37fb79bc2e579046d8d087be9e071a551b3da85bda7b5caea/pyobjc_framework_ApplicationServices-6.2-py2.py3-none-any.whl
+Collecting pyobjc-framework-WebKit==6.2 (from pyobjc>=2.4->pyttsx3)
+  Using cached https://files.pythonhosted.org/packages/07/bb/4be25318cccf01646806cd5fac78e1f865cc61773baed2d91d08ab05f571/pyobjc-framework-WebKit-6.2.tar.gz
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "C:\Users\hello\AppData\Local\Temp\pip-install-zuc21nf0\pyobjc-framework-WebKit\setup.py", line 22, in <module>
+        Extension(
+      File "C:\Users\hello\AppData\Local\Temp\pip-install-zuc21nf0\pyobjc-framework-WebKit\pyobjc_setup.py", line 390, in Extension
+        os_level = get_os_level()
+      File "C:\Users\hello\AppData\Local\Temp\pip-install-zuc21nf0\pyobjc-framework-WebKit\pyobjc_setup.py", line 200, in get_os_level
+        with open("/System/Library/CoreServices/SystemVersion.plist", "rb") as fp:
+    FileNotFoundError: [Errno 2] No such file or directory: '/System/Library/CoreServices/SystemVersion.plist'
+
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in C:\Users\hello\AppData\Local\Temp\pip-install-zuc21nf0\pyobjc-framework-WebKit\
+
+(venv) C:\Users\hello\PycharmProjects\website>pip install pyttsx3-2.84-py3-none-any^Z^Z^Z^Z
+Collecting pyttsx3-2.84-py3-none-any
+  Could not find a version that satisfies the requirement pyttsx3-2.84-py3-none-any (from versions: )
+No matching distribution found for pyttsx3-2.84-py3-none-any
